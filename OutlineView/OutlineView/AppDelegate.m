@@ -48,6 +48,14 @@
 }
 
 
+- (IBAction)addClicked:(id)sender {
+    NSUInteger indexArr[] = {0,0};
+
+    [self.booksController insertObject:[Book new] atArrangedObjectIndexPath:[NSIndexPath indexPathWithIndexes:indexArr length:2]];
+}
+
+
+
 #pragma mark - Helpers
 
 - (BOOL) isHeader:(id)item{

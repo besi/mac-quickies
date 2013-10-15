@@ -806,7 +806,7 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="insert:" target="j6M-ub-192" id="iuc-rR-Lau"/>
+                            <action selector="addClicked:" target="494" id="bqM-wH-q2x"/>
                         </connections>
                     </button>
                     <button id="bhF-dq-wnW">
