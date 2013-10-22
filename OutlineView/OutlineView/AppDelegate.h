@@ -7,7 +7,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSOutlineViewDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSOutlineViewDelegate, NSOutlineViewDataSource>
 
 @property (assign) IBOutlet NSWindow *window;
 
